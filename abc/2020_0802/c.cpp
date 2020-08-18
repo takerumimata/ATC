@@ -7,12 +7,19 @@
 using namespace std;
 
 int main(void){
-    int K;
+    long K;
     cin >> K;
     int n;
-    
-    if(K)
+    unsigned long long an;
 
-    cout << n << endl;
+    for(int i = 2; i < K; i++){
+        an = (pow(10, i)-1)/9;
+        cout << pow(10, i) << " " << an <<  endl;
+        if(an % K == 0){
+            cout << i  << endl;
+            return 0;
+        }
+    }
+    cout << -1 << endl;
     return 0;
 }
