@@ -1,3 +1,4 @@
 # mac osのファイルシステムで作成される.DS_Storeを無視する
 .DS_Store
 .vscode
+*.out
