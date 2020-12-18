@@ -1,6 +1,6 @@
 # mac osのファイルシステムで作成される.DS_Storeを無視する
 .DS_Store
-.vscode
+.vscode/*
 *.out
 practice/2020_1007/1.cpp
 practice.sh
