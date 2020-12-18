@@ -134,4 +134,4 @@ dp[0][j]={True(j=0)False(j≠0)
 - 動的計画法を用いる（漸化式を立ててメモ化を行う）ことにより。計算量はO(NW)まで落とせる
 
 ## 参考
-[](https://qiita.com/drken/items/a5e6fe22863b7992efdb)
+[典型的な DP (動的計画法) のパターンを整理 Part 1 ～ ナップサック DP 編 ～](https://qiita.com/drken/items/a5e6fe22863b7992efdb)
