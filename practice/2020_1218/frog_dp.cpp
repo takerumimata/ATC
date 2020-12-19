@@ -19,7 +19,7 @@ int main(){
     dp[0] = 0;
     // ループ
     for(int i = 0; i < N; i++){
-        if(i == 1) dp[i] = abs(h[i] - h[i-1]);
+        if(i == 1) dp[i] = abs(h[i] - h[i-1]); // 1番目の足場に飛び移るにあたり、-1番目の足場から飛び移ることは考えない（バグる）
         else dp[i] = min(dp[i-1] + abs(h[i] - h[i-1]),
                         dp[i-2] + abs(h[i] - h[i-2]));
     }
