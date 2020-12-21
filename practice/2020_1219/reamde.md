@@ -14,3 +14,41 @@ template<class T> void chmin(T& a, b) {
 }
 ```
 余力があったら加筆する。とりあえず任意の型を受け取れるということだけ認識した。自由度が増す分、バグが介在する余地も増える？それともコンパイル時にチェックしてくれるから問題なし？ちゃんと調べて記録を残しておきたい。
+
+## Atcoder Probrems第一回
+[Atcoder Beginner Contest 001](https://atcoder.jp/contests/abc001)
+
+## 学んだこと
+型キャストとstringの扱い。
+B問題 - 視程の通報に関して
+pythonなどを利用していると適当な記述でもどうにかなってくれるが、やはりC++は型のキャスト、もとい、型システム自体がそもそも複雑だ。
+でもstring型調べたら結構柔軟にいろいろ文字列の操作をよしなにやってくれるっぽい。
+
+### 文字・文字列の追加
+- push_back(文字) : void
+- operator+=(文字) : string
+- operator+=(文字列) : string
+- insert(イテレータ, 文字) : イテレータ
+
+### push_back(文字) : void
+文字を末尾に追加するには push_back(文字); または += 演算子を使う。
+```cpp
+    std::string str;       // 空の文字列を生成
+    str.push_back('Z');     // 末尾に 'Z' を追加
+    str += '0';     // 末尾に '0' を追加
+    std::cout << str << "\n";
+```
+### operator+=(文字) : string、operator+=(文字列) : string
+push_back() は文字しか追加できないが、+= 演算子は文字列を追加することも出来るし、 コードが見やすいので、通常は += 演算子の方が使用される。
+
+先頭に文字を挿入したい場合は、前節に出てきた + 演算子を使用する。
+
+```cpp
+    std::string str("xyz");
+    str = "12" + str;        //  str の先頭に "12" を挿入と同じ
+    std::cout << str << "\n";
+```
+push_back(), += 演算子共に、処理時間は O(1) で高速。O(式) は処理時間を表す数学的な記法。「ビッグ・オー記法」と呼ばれる。 O(1) は文字数に依らず常に一定時間で処理出来るという意味で、高速なのだ。
+
+
+[参考](http://vivi.dyndns.org/tech/cpp/string.html)
