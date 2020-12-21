@@ -1,0 +1,7 @@
+## 精進用の参考
+とんでもない問題数あるのでしばらくは飽きることなくやれそう。執筆時点（2020/12/21）で800題以上がある。
+[Atcoder Probrems](https://kenkoooo.com/atcoder#/table/)
+
+[問題解決力を鍛える！アルゴリズムとデータ構造 (ＫＳ情報科学専門書）](https://www.amazon.co.jp/%E5%95%8F%E9%A1%8C%E8%A7%A3%E6%B1%BA%E5%8A%9B%E3%82%92%E9%8D%9B%E3%81%88%E3%82%8B%EF%BC%81%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%A8%E3%83%87%E3%83%BC%E3%82%BF%E6%A7%8B%E9%80%A0-%EF%BC%AB%EF%BC%B3%E6%83%85%E5%A0%B1%E7%A7%91%E5%AD%A6%E5%B0%82%E9%96%80%E6%9B%B8-%E5%A4%A7%E6%A7%BB%E5%85%BC%E8%B3%87-ebook/dp/B08PV83L3N/?_encoding=UTF8&pd_rd_w=hyqlB&pf_rd_p=af8e41f1-fa90-4d81-95be-cde212367a7b&pf_rd_r=D4ZTN6HG1G6R0RVP5FTZ&pd_rd_r=26bf72e5-9306-487c-bb81-18b2b7ecd62f&pd_rd_wg=J9EEK&ref_=pd_gw_wsixn_v2)
+
+[螺旋本](https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88%E6%94%BB%E7%95%A5%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%A8%E3%83%87%E3%83%BC%E3%82%BF%E6%A7%8B%E9%80%A0-%E6%B8%A1%E9%83%A8-%E6%9C%89%E9%9A%86-ebook/dp/B00U5MVXZO/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=17J0TOGH1EX8N&dchild=1&keywords=%E7%AB%B6%E6%8A%80%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0&qid=1608531526&s=digital-text&sprefix=%E7%AB%B6%E6%8A%80%2Cdigital-text%2C235&sr=1-2)
